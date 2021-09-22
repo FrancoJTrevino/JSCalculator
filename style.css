@@ -1,0 +1,20 @@
+
+
+button{
+    width:  50px;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+#clear{
+    width: 206px;
+}
+p{
+    font-size: 24px;
+}
+#nueve,#seis,#tres,#signo,#parentesis1,#clear{
+    margin-left: auto;
+}
+#dividir,#multiplicar,#restar,#sumar,#igual,#clear{
+    margin-right: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcuadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div style="width: 206px; margin-right: auto; margin-left: auto;">
+                <p id="muestra" style="text-align: right;">0</p>
+            </div>
+        </div>
+        <div class="row">
+            <button id="nueve" onclick="numero(9)">9</button>
+            <button id="ocho" onclick="numero(8)">8</button>
+            <button id="siete" onclick="numero(7)">7</button>
+            <button id="dividir" onclick="dividir()">/</button>
+        </div>
+        <div class="row">
+            <button id="seis" onclick="numero(6)">6</button>
+            <button id="cinco" onclick="numero(5)">5</button>
+            <button id="cuatro" onclick="numero(4)">4</button>
+            <button id="multiplicar" onclick="multiplicar()">x</button>
+        </div>
+        <div class="row">
+            <button id="tres" onclick="numero(3)">3</button>
+            <button id="dos" onclick="numero(2)">2</button>
+            <button id="uno" onclick="numero(1)">1</button>
+            <button id="restar" onclick="restar()">-</button>
+        </div>
+        <div class="row">
+            <button id="signo" onclick="cambioSigno()">+/-</button>
+            <button id="cero" onclick="numero(0)">0</button>
+            <button id="punto" onclick="punto()">.</button>
+            <button id="sumar" onclick="sumar()">+</button>
+        </div>
+        <div class="row">
+            <button id="parentesis1" onclick="parentesis1()">(</button>
+            <button id="parentesis2" onclick="parentesis2()">)</button>
+            <button id="borrar" onclick='borrar()'>DEL</button>
+            <button id="igual" onclick="igual()">=</button>
+        </div>
+        <div class="row">
+            <button id="clear" onclick='limpiar()'>C</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
